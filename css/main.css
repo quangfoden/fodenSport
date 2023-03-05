@@ -1,0 +1,33 @@
+
+ul li  :hover {
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.col-md a {text-decoration: none;}
+.product-text{
+    margin: 40px 0px 10px 0;
+}
+.product{
+    text-align: center;
+}
+.name-product{
+    color: black;
+    font-weight: 500;
+}
+.price{
+    color: red;
+    font-size: 20px;
+}
+h1{
+    color: #444;
+}
+.footer{
+    margin-top: 20px;
+}
+.col-md a img:hover{
+    filter:opacity(80%)
+}
+.col-md a .name-product:hover{
+ color:rgb(243, 187, 5);
+}

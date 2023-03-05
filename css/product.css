@@ -1,0 +1,47 @@
+ul li  :hover {
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.col-md a {text-decoration: none;}
+.product-text{
+    margin: 40px 0px 10px 0;
+}
+.product{
+    text-align: center;
+}
+.name-product{
+    color: black;
+    font-weight: 500;
+}
+.price{
+    color: red;
+    font-size: 20px;
+}
+h1{
+    color: #444;
+}
+.footer{
+    margin-top: 20px;
+}
+.col-md a img:hover{
+    filter:opacity(80%)
+}
+.col-md a .name-product:hover{
+ color:rgb(243, 187, 5);
+}
+.bg-black button{color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+.bg-red button{
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.733);
+}
+.bg-black button:hover{
+background-color: black;
+}
+.bg-red button:hover{
+  background-color: red; 
+}

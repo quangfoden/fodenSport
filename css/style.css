@@ -1,0 +1,79 @@
+.main-content{
+    display: flex;
+}
+h4{
+    color: #555555;
+}
+p{
+    font-weight: 600;
+    color: #000;
+}
+ul li  :hover {
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.5s;
+}
+ul li {
+    margin: 10px;
+}
+ul {
+list-style: none;
+
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.col-md-12 ul li a{
+    font-size: 18px;
+}
+.col-md-12 ul li a:hover{
+    text-decoration: underline;
+}
+.col-md-3 a.my-product{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.name-product{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+}
+.price{
+    color: red;
+}
+.col-md-3 a .name-product:hover{
+    color: darkgoldenrod;
+}
+.box{
+    padding-bottom: 48px;
+    border-bottom: 1px solid black;
+}
+.col-md-12 img:hover{
+    filter: opacity(70%);
+}
+.col-sm-3 a img:hover{
+    filter: opacity(60%);
+}
+.col-md-12 a.active{
+ background-color: chocolate;
+text-decoration: none;
+padding: 5px;
+padding-bottom: 0;
+margin: 5px;
+color: black;
+}
+.col-md-12 a.stt{
+    
+    padding: 5px;
+padding-bottom: 0;
+margin: 5px;
+color: black;
+}
+
+.col-md-12 a.stt:hover{
+    background-color: chocolate;
+}
